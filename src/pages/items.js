@@ -28,7 +28,7 @@ function items() {
   return (
     <div
       className="relative w-screen min-h-fit"
-      style={{ fontFamily: "Neutral Face" }}
+      style={{ fontFamily: "Andale Mono" }}
     >
       <header className="flex font-bold text-[5vw] items-center justify-center w-full h-fit">
         <div className="flex items-center justify-center py-4 w-1/2 border border-black">

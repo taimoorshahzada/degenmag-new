@@ -3,9 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url(https://db.onlinewebfonts.com/c/7ad858a30e7f90e5e31bf3c16996a9fb?family=Andale+Mono);
 body {
   overflow-x: hidden;
+  font-family: "sans-serif";
 }
 .fontanimate > h1 {
   -webkit-transition: all 0.5s;
