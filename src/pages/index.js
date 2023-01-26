@@ -46,7 +46,7 @@ export default function Home() {
             {/* <div className="-translate-x-4 -translate-y-4">items</div> */}
             <Image
               src={icon}
-              className="w-40 object-contain"
+              className=" w-20 md:w-40 object-contain"
               alt="icon
             "
             />
