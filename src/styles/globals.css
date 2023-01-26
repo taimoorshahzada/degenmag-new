@@ -13,15 +13,12 @@ body {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  text-shadow: -0.5px 0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
-    0.5px 0.5px 0 black;
 }
-
 .fontanimate:hover > h1 {
-  text-shadow: -2px -2px 0 #37f713, 2px -2px 0 #37f713, -2px 2px 0 #37f713,
-    2px 2px 0 #37f713;
-  color: #37f713;
-  letter-spacing: 5px;
+  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
+    0.5px 0.5px 0 black;
+  color: black;
+  letter-spacing: 3px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
