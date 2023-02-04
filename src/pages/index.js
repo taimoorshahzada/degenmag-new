@@ -6,7 +6,7 @@ import Link from "next/link";
 import icon from "public/icon2.png";
 export default function Home() {
   const fields = [];
-  const numberOffields = window.innerWidth;
+  const numberOffields = 1500;
   for (let i = 1; i <= numberOffields; i++) {
     fields.push(<div className="w-[3px] h-[3px] bg-black rounded-full "></div>);
   }
