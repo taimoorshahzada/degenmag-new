@@ -6,23 +6,27 @@ function items() {
   const allItems = [
     {
       id: "01",
-      name: "Currencies",
+      name: "XXXXXXXXX",
+    },
+    {
+      id: "02",
+      name: "XXXXXXXXX",
+    },
+    {
+      id: "03",
+      name: "XXXXXXXXX",
+    },
+    {
+      id: "04",
+      name: "XXXXXXXXX",
+    },
+    {
+      id: "05",
+      name: "XXXXXXXXX",
     },
     {
       id: "01",
-      name: "Currencies",
-    },
-    {
-      id: "01",
-      name: "Currencies",
-    },
-    {
-      id: "01",
-      name: "Currencies",
-    },
-    {
-      id: "01",
-      name: "Currencies",
+      name: "XXXXXXXXX",
     },
   ];
   return (
@@ -39,7 +43,7 @@ function items() {
           <h1>DROPS</h1>
         </div>
       </header>
-      <div className="relative flex flex-col w-full">
+      <div className="relative flex flex-col text-[#7A7B80] w-full">
         {allItems.map((data) => (
           <div
             key={data.id}
