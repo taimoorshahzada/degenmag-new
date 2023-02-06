@@ -13,33 +13,30 @@ export default function Home() {
   return (
     <div className="relative h-screen w-screen bg-[#FCFAFA] py-1 px-1 overflow-hidden">
       <div
-        className="flex relative items-center justify-start w-full h-full py-[8vh] flex-col text-center space-y-6 text-[#7A7B80]"
+        className="flex relative items-center justify-start w-full h-full py-14 flex-col text-center space-y-6 text-[#7A7B80]"
         style={{ fontFamily: "consolas" }}
       >
         <div></div>
         <h1 className="text-4xl text-black font-bold">rn dm de gen</h1>
         <div>
-          <p>We just cause scenes in web3.</p>
-
-          <p>We also a solananana.</p>
+          <p>We cause scenes on the internet.</p>
+          <p>We love controversy.</p>
+          <p>We B 3.</p>
         </div>
         <div>
-          Like this <span className="underline">iMessage gif</span> that crushed
-          the <br /> spirit of every iphone user. Or this{" "}
-          <span className="underline">app</span> <br /> to join the mile-high
-          club. Or this <br />{" "}
-          <span className="underline">sexist tip calculator</span>. Or this{" "}
-          <span className="underline">app</span>
-          that <br /> finds you meal-worthy food for under $5 <br /> in NYC.
+          <p>Some people might say {"we’re"} a marketing company,</p>
+          <p>Some people might say {"we’re"} an art company, </p>
+          <p className="flex items-center space-x-2 justify-center">
+            <span> We don’t know what we are </span>
+            <div className="w-1 h-4  bg-black cursor-blink"></div>{" "}
+          </p>{" "}
         </div>
-        <div>Other things too, but you have to ask for those.</div>
-        <div>
-          some might say {"we're"} an marketing <br /> company, others might say
-          we make <br /> we belive, {"we're"} an idea house. <br /> noothing is
-          off-limits
+        <div className="flex items-center justify-center flex-col">
+          <p>We think beyond boundaries and nothing is off-limits.</p>{" "}
+          <p>Iterate.</p>
+          <div className="w-1 h-4  bg-black cursor-blink mt-1"></div>{" "}
         </div>
-        <div>Happy ヘ( ^o^)ノ＼(^_^ )</div>
-        <div className="space-x-5 py-5 ">
+        <div className="space-x-5 relative py-5">
           <input
             type="text"
             name=""
@@ -52,7 +49,16 @@ export default function Home() {
               Sign up
             </button>
           </a>
+          <span className="absolute bottom-0 -left-5 text-xs">
+            *Get notified when we do random stuff.
+          </span>
         </div>
+        <div>
+          <a href="mailto:labs@randomdegen.xyz" className="opacity-75">
+            labs@randomdegen.xyz
+          </a>
+        </div>
+
         <div className="absolute bottom-0 text-xl right-0 ">
           <Link href="/items">
             {/* <div className="-translate-x-4 -translate-y-4">items</div> */}
@@ -65,7 +71,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="flex absolute top-0 items-center justify-center py-1 space-x-10">
+      {/* <div className="flex absolute top-0 items-center justify-center py-1 space-x-10">
         {fields}
       </div>
       <div className="flex absolute flex-col  py-1 px-1 top-0 left-0 items-center justify-center space-y-10">
@@ -76,7 +82,7 @@ export default function Home() {
       </div>
       <div className="flex absolute  py-1 px-1 right-0 top-0 flex-col items-center justify-center space-y-10">
         {fields}
-      </div>
+      </div> */}
     </div>
   );
 }

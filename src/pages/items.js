@@ -6,27 +6,33 @@ function items() {
   const allItems = [
     {
       id: "01",
-      name: "XXXXXXXXX",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "green-hover",
     },
     {
       id: "02",
-      name: "XXXXXXXXX",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "pink-hover",
     },
     {
       id: "03",
-      name: "XXXXXXXXX",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "black-hover",
     },
     {
       id: "04",
-      name: "XXXXXXXXX",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "purple-hover",
     },
     {
       id: "05",
-      name: "XXXXXXXXX",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "pink-hover",
     },
     {
-      id: "01",
-      name: "XXXXXXXXX",
+      id: "06",
+      name: "XXXXXXXXXXXXXXXXXXXX",
+      hoveredColor: "yellow-hover",
     },
   ];
   return (
@@ -47,7 +53,7 @@ function items() {
         {allItems.map((data) => (
           <div
             key={data.id}
-            className="border-b cursor-pointer border-black flex px-5 group fontanimate items-center py-3 text-[5vw] space-x-5 uppercase "
+            className={`border-b cursor-pointer border-black flex px-5 group ${data.hoveredColor} fontanimate items-center py-3 text-[5vw] space-x-5 uppercase `}
           >
             <div className="flex flex-col text-[2.5vw] leading-none">
               <span># </span> <span>{data.id}</span>{" "}
