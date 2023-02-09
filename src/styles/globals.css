@@ -22,33 +22,38 @@ body {
   transition: all 0.5s;
 }
 .green-hover:hover > h1 {
-  text-shadow: -0.5px -0.5px 0 green, 0.5px -0.5px 0 green, -0.5px 0.5px 0 green,
-    0.5px 0.5px 0 green;
-  color: green;
+  text-shadow: -0.5px -0.5px 0 #28996a, 0.5px -0.5px 0 #28996a,
+    -0.5px 0.5px 0 #28996a, 0.5px 0.5px 0 #28996a;
+  color: #28996a;
 }
 
 .pink-hover:hover > h1 {
-  text-shadow: -0.5px -0.5px 0 pink, 0.5px -0.5px 0 pink, -0.5px 0.5px 0 pink,
-    0.5px 0.5px 0 pink;
-  color: pink;
+  text-shadow: -0.5px -0.5px 0 #fccce4, 0.5px -0.5px 0 #fccce4,
+    -0.5px 0.5px 0 #fccce4, 0.5px 0.5px 0 #fccce4;
+  color: #fccce4;
 }
 
-.purple-hover:hover > h1 {
-  text-shadow: -0.5px -0.5px 0 purple, 0.5px -0.5px 0 purple,
-    -0.5px 0.5px 0 purple, 0.5px 0.5px 0 purple;
-  color: purple;
+.red-hover:hover > h1 {
+  text-shadow: -0.5px -0.5px 0 #ff3636, 0.5px -0.5px 0 #ff3636,
+    -0.5px 0.5px 0 #ff3636, 0.5px 0.5px 0 #ff3636;
+  color: #ff3636;
+}
+.blue-hover:hover > h1 {
+  text-shadow: -0.5px -0.5px 0 #3c68ff, 0.5px -0.5px 0 #3c68ff,
+    -0.5px 0.5px 0 #3c68ff, 0.5px 0.5px 0 #3c68ff;
+  color: #3c68ff;
 }
 
-.black-hover:hover > h1 {
-  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
-    0.5px 0.5px 0 black;
-  color: black;
+.orange-hover:hover > h1 {
+  text-shadow: -0.5px -0.5px 0 #ff8b4a, 0.5px -0.5px 0 #ff8b4a,
+    -0.5px 0.5px 0 #ff8b4a, 0.5px 0.5px 0 #ff8b4a;
+  color: #ff8b4a;
 }
 
 .yellow-hover:hover > h1 {
-  text-shadow: -0.5px -0.5px 0 yellow, 0.5px -0.5px 0 yellow,
-    -0.5px 0.5px 0 yellow, 0.5px 0.5px 0 yellow;
-  color: yellow;
+  text-shadow: -0.5px -0.5px 0 #ffd437, 0.5px -0.5px 0 #ffd437,
+    -0.5px 0.5px 0 #ffd437, 0.5px 0.5px 0 #ffd437;
+  color: #ffd437;
 }
 .cursor-blink {
   animation: animate-blink 1s infinite linear;

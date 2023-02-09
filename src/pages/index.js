@@ -18,40 +18,41 @@ export default function Home() {
       >
         <div></div>
         <h1 className="text-4xl text-black font-bold">rn dm de gen</h1>
-        <div>
+        <div className="px-2">
           <p>We cause scenes on the internet.</p>
           <p>We love controversy.</p>
           <p>We B 3.</p>
         </div>
-        <div>
+        <div className="px-2">
           <p>Some people might say {"we’re"} a marketing company,</p>
           <p>Some people might say {"we’re"} an art company, </p>
           <p className="flex items-center space-x-2 justify-center">
-            <span> We don’t know what we are </span>
+            <span> we believe {"we’re"} an </span>
             <div className="w-1 h-4  bg-black cursor-blink"></div>{" "}
           </p>{" "}
         </div>
-        <div className="flex items-center justify-center flex-col">
-          <p>We think beyond boundaries and nothing is off-limits.</p>{" "}
-          <p>Iterate.</p>
-          <div className="w-1 h-4  bg-black cursor-blink mt-1"></div>{" "}
+        <div className=" px-2 ">
+          <p>nothing is off-limits.</p>{" "}
         </div>
-        <div className="space-x-5 relative py-5">
-          <input
-            type="text"
-            name=""
-            id=""
-            className="border-2 focus:ring-0 outline-none rounded-lg py-2  px-4 text-base w-80 border-[#838383] text-black"
-            placeholder="Your email here, please."
-          />
+        <div className="space-x-2 sm:space-x-5 px-2 flex items-center justify-center relative py-5">
+          <div className="relative">
+            <input
+              type="text"
+              name=""
+              id=""
+              className="border-2 focus:ring-0 outline-none rounded-lg py-2  px-4 text-base w-64 sm:w-80 border-[#838383] text-black"
+              placeholder="Your email here, please."
+            />
+
+            <span className="absolute -bottom-5 left-1 text-xs">
+              *Get notified when we do random stuff.
+            </span>
+          </div>
           <a href="mailto:labs@randomdegen.xyz">
-            <button className="text-white border-2 border-[#838383] bg-[#838383] py-2 px-8 font-bold uppercase rounded-lg">
+            <button className="text-white border-2 border-[#838383] bg-[#838383] py-2 px-3 sm:px-8  font-bold uppercase rounded-lg">
               Sign up
             </button>
           </a>
-          <span className="absolute bottom-0 -left-5 text-xs">
-            *Get notified when we do random stuff.
-          </span>
         </div>
         <div>
           <a href="mailto:labs@randomdegen.xyz" className="opacity-75">

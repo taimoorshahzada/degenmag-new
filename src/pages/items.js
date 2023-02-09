@@ -7,32 +7,32 @@ function items() {
     {
       id: "01",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "green-hover",
+      hoveredColor: "red-hover",
     },
     {
       id: "02",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "pink-hover",
+      hoveredColor: "orange-hover",
     },
     {
       id: "03",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "black-hover",
+      hoveredColor: "yellow-hover",
     },
     {
       id: "04",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "purple-hover",
+      hoveredColor: "pink-hover",
     },
     {
       id: "05",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "pink-hover",
+      hoveredColor: "green-hover",
     },
     {
       id: "06",
       name: "XXXXXXXXXXXXXXXXXXXX",
-      hoveredColor: "yellow-hover",
+      hoveredColor: "blue-hover",
     },
   ];
   return (
